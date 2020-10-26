@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script src="./click.js" type="text/javascript"></script>
+</head>
+
+    <body>
+        <h1>EASY POST(JSON FORMAT)</h1>
+        <p>
+            <button onclick="template('discord')">Discord Webhook Template</button>
+        </p>
+        url:<input type="text" id="url"><br />
+        <div id="divbody">JavaScriptを有効にしてください。</div>
+        <p>
+            <button onclick="addcount()">Add</button>
+            <button onclick="minuscount()">Remove</button>
+            <button onclick="clearcount()">Clear</button>
+            <button onclick="post()">Send</button>
+        </p>
+
+        <script>
+            update();
+        </script>
+    </body>
+</html>
