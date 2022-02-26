@@ -4,7 +4,7 @@ body
 	background-color:#555;
 }
 
-input
+input, textarea
 {
 	color:#fff;
 	background-color:#000;
@@ -17,7 +17,7 @@ input
 		color:#000000
 	}
 
-	input
+	input, textarea
 	{
 		color:#000;
 		background-color:#ccc;

@@ -28,7 +28,7 @@ function update()
 {
     let text = "";
     for (let index = 0; index < formcount; index++) {
-        text = text + 'name:<input type="text" id="name' + index + '"/>value:<input type="text" id="value' + index + '"/><br />';
+        text = text + 'name:<input type="text" id="name' + index + '"/>value:<textarea id="value' + index + '"></textarea><br />';
     }
     document.getElementById("divbody").innerHTML = text;
 }
